@@ -240,9 +240,12 @@ func (r *rabbitMQConn) Consume(queue, key string, headers amqp.Table, qArgs amqp
 		return nil, nil, err
 	}
 
-	err = consumerChannel.BindQueue(queue, key, r.exchange.name, headers)
-	if err != nil {
-		return nil, nil, err
+	keys := strings.Split(key, ",")
+	for _, key := range keys {
+		err = consumerChannel.BindQueue(queue, key, r.exchange.name, headers)
+		if err != nil {
+			return nil, nil, err
+		}
 	}
 
 	return consumerChannel, deliveries, nil
