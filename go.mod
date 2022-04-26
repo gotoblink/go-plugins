@@ -23,7 +23,6 @@ require (
 	github.com/anacrolix/sync v0.2.0 // indirect
 	github.com/anacrolix/utp v0.0.0-20180219060659-9e0e1d1d0572
 	github.com/asim/go-awsxray v0.0.0-20161209120537-0d8a60b6e205
-	github.com/asim/go-bson v0.0.0-20160318195205-84522947cabd
 	github.com/aws/aws-sdk-go v1.25.31
 	github.com/bradfitz/gomemcache v0.0.0-20190913173617-a41fca850d0b
 	github.com/cenkalti/backoff v2.2.1+incompatible // indirect
