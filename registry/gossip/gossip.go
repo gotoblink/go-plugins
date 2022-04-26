@@ -19,7 +19,7 @@ import (
 	"github.com/micro/go-micro/config/cmd"
 	"github.com/micro/go-micro/registry"
 	log "github.com/micro/go-micro/util/log"
-	pb "github.com/micro/go-plugins/registry/gossip/proto"
+	pb "github.com/gotoblink/go-plugins/registry/gossip/proto"
 	"github.com/mitchellh/hashstructure"
 )
 

@@ -14,7 +14,7 @@ import (
 	"github.com/micro/go-micro/client/selector"
 	"github.com/micro/go-micro/registry"
 	"github.com/micro/go-micro/registry/memory"
-	"github.com/micro/go-plugins/client/http/test"
+	"github.com/gotoblink/go-plugins/client/http/test"
 )
 
 func TestHTTPClient(t *testing.T) {

@@ -11,7 +11,7 @@ package main
 
 import (
     "github.com/micro/micro/plugin"
-    "github.com/micro/go-plugins/micro/cors"
+    "github.com/gotoblink/go-plugins/micro/cors"
 )
 
 func init() {

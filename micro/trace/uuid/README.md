@@ -11,7 +11,7 @@ package main
 
 import (
 	"github.com/micro/micro/plugin"
-	"github.com/micro/go-plugins/micro/trace/uuid"
+	"github.com/gotoblink/go-plugins/micro/trace/uuid"
 )
 
 func init() {
@@ -29,7 +29,7 @@ package main
 
 import (
 	"github.com/micro/micro/api"
-	"github.com/micro/go-plugins/micro/trace/uuid"
+	"github.com/gotoblink/go-plugins/micro/trace/uuid"
 )
 
 func init() {

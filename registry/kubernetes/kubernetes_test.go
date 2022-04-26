@@ -13,8 +13,8 @@ import (
 	"github.com/micro/go-micro/client/selector"
 	"github.com/micro/go-micro/registry"
 	"github.com/micro/go-micro/util/log"
-	"github.com/micro/go-plugins/registry/kubernetes/client"
-	"github.com/micro/go-plugins/registry/kubernetes/client/mock"
+	"github.com/gotoblink/go-plugins/registry/kubernetes/client"
+	"github.com/gotoblink/go-plugins/registry/kubernetes/client/mock"
 )
 
 var (

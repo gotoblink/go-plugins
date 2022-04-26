@@ -6,7 +6,7 @@ import (
 
 	"github.com/micro/go-micro/registry"
 	"github.com/micro/go-micro/util/log"
-	"github.com/micro/go-plugins/registry/nats"
+	"github.com/gotoblink/go-plugins/registry/nats"
 )
 
 type environment struct {
